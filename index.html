@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fce8f3">
+
+  <title>Ankuuu's Little Heaven 💗</title>
+
+  <meta name="description" content="A little heaven filled with love, happiness, care and beautiful surprises for Ankuuu.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Effects -->
+  <div class="background-glow"></div>
+  <div class="stars-layer" id="starsLayer"></div>
+  <div class="petal-layer" id="petalLayer"></div>
+
+  <!-- Floating Music Player -->
+  <div class="music-player">
+    <div class="music-info">
+      <span class="music-icon">🎵</span>
+      <div>
+        <strong>Our Little Melody</strong>
+        <small>A special song for you 💗</small>
+      </div>
+    </div>
+
+    <button id="musicToggle" class="music-button" aria-label="Toggle music">
+      ▶
+    </button>
+
+    <audio id="backgroundMusic" loop>
+      <source src="assets/song.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <!-- Welcome Screen -->
+  <section id="welcomeScreen" class="welcome-screen">
+
+    <div class="welcome-content">
+
+      <div class="welcome-decoration">🌷 🦋 🌷</div>
+
+      <p class="small-heading">A LITTLE WORLD MADE WITH LOVE</p>
+
+      <h1 class="welcome-title">
+        Hey, <span>Ankuuu</span> 💗
+      </h1>
+
+      <div class="typing-area">
+        <p id="typingText"></p>
+      </div>
+
+      <p class="welcome-description">
+        Ek chhoti si duniya, sirf tumhari smile ke naam. 🎀
+      </p>
+
+      <button id="enterButton" class="main-button">
+        Enter Your Heaven 💗
+        <span>→</span>
+      </button>
+
+      <div class="welcome-footer">
+        Made with endless care & little happiness ✨
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Main Website -->
+  <div id="mainWebsite" class="main-website hidden">
+
+    <!-- Header -->
+    <header class="site-header">
+
+      <a href="#" class="logo" id="homeLogo">
+        Ankuuu<span>♡</span>
+      </a>
+
+      <div class="header-tag">
+        Your Little Heaven 🌸
+      </div>
+
+    </header>
+
+
+    <!-- Page Navigation -->
+    <nav class="page-navigation">
+
+      <button class="nav-button active" data-page="home">
+        🏡 Home
+      </button>
+
+      <button class="nav-button" data-page="safe">
+        🧸 Safe Place
+      </button>
+
+      <button class="nav-button" data-page="proud">
+        ✨ Proud of You
+      </button>
+
+      <button class="nav-button" data-page="relax">
+        🌷 Relax
+      </button>
+
+      <button class="nav-button" data-page="letter">
+        💌 My Letter
+      </button>
+
+    </nav>
+
+
+    <!-- PAGE 1: HOME -->
+    <main>
+
+      <section class="website-page active" id="page-home">
+
+        <div class="hero-section">
+
+          <div class="hero-badge">
+            🌸 A little happiness for you 🌸
+          </div>
+
+          <h1 class="hero-title">
+            Welcome to your
+            <span>Little Heaven</span>
+          </h1>
+
+          <p class="hero-description">
+            Ankuuu, yahan koi pressure nahi hai,
+            koi expectations nahi hain...
+            bas thoda sa pyaar, care aur happiness hai. 💗
+          </p>
+
+          <div class="hero-illustration">
+            <span>🦋</span>
+            <span>🌷</span>
+            <span>💗</span>
+            <span>🌸</span>
+            <span>🦋</span>
+          </div>
+
+          <div class="hero-note">
+            <span>💌</span>
+            <p>
+              Whenever life feels a little heavy,
+              remember that you deserve a little happiness too.
+            </p>
+          </div>
+
+          <button class="main-button" data-go="safe">
+            Let's Explore 💗 →
+          </button>
+
+        </div>
+
+
+        <div class="section-heading">
+          <p class="small-heading">A LITTLE REMINDER</p>
+          <h2>For My Ankuuu 🌷</h2>
+          <p>Some little things you should never forget.</p>
+        </div>
+
+
+        <div class="cards-grid">
+
+          <article class="heaven-card">
+            <div class="card-emoji">🦋</div>
+            <h3>You Are Special</h3>
+            <p>
+              Tumhari smile, tumhari kindness aur tumhari presence
+              bahut precious hai. 💗
+            </p>
+          </article>
+
+          <article class="heaven-card">
+            <div class="card-emoji">🌸</div>
+            <h3>Take Your Time</h3>
+            <p>
+              Har cheez ek hi din mein perfect karna zaroori nahi.
+              One step at a time.
+            </p>
+          </article>
+
+          <article class="heaven-card">
+            <div class="card-emoji">💞</div>
+            <h3>Believe in Yourself</h3>
+            <p>
+              Tum jitna sochti ho, usse kahin zyada capable ho.
+              Never underestimate yourself.
+            </p>
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- PAGE 2: SAFE PLACE -->
+      <section class="website-page" id="page-safe">
+
+        <div class="page-hero">
+
+          <div class="page-emoji">🧸💗</div>
+
+          <p class="small-heading">YOU ARE NEVER ALONE</p>
+
+          <h2>Your Safe Place</h2>
+
+          <p class="page-subtitle">
+            Jab bhi mann heavy ho, yahan thoda sa sukoon milega. 🌷
+          </p>
+
+        </div>
+
+
+        <div class="message-card">
+
+          <div class="message-decoration">💗</div>
+
+          <h3>Ek baat suno, Ankuuu...</h3>
+
+          <p>
+            Kabhi bhi tumhe stress ho, kisi baat ki tension ho,
+            ya bas kisi se baat karne ka mann ho,
+            toh mujhse share kar sakti ho.
+          </p>
+
+          <p>
+            Tumhe har waqt strong banne ki zaroorat nahi hai.
+            Kabhi-kabhi bas apni feelings share kar dena bhi enough hota hai.
+          </p>
+
+          <p>
+            Main tumhari baatein sunne ke liye hoon.
+            You don't have to handle everything alone. 💗
+          </p>
+
+        </div>
+
+
+        <div class="surprise-box">
+          <span>🎀</span>
+          <h3>A Little Surprise</h3>
+
+          <p id="comfortMessage">
+            You deserve peace, happiness and endless kindness. 🌸
+          </p>
+
+          <button class="soft-button" id="comfortButton">
+            Another little reminder 💗
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- PAGE 3: PROUD OF YOU -->
+      <section class="website-page" id="page-proud">
+
+        <div class="page-hero">
+
+          <div class="page-emoji">🏆🌷</div>
+
+          <p class="small-heading">YOUR EFFORT MATTERS</p>
+
+          <h2>I'm So Proud of You!</h2>
+
+          <p class="page-subtitle">
+            Not just for your results, but for every little effort you make. ✨
+          </p>
+
+        </div>
+
+
+        <div class="message-card">
+
+          <h3>My Hardworking Ankuuu 💗</h3>
+
+          <p>
+            Mujhe pata hai tum apni studies ke liye kitni mehnat kar rahi ho.
+            Kabhi-kabhi pressure feel hona normal hai.
+          </p>
+
+          <p>
+            But please remember, tumhari value kisi marksheet,
+            percentage ya ek exam se decide nahi hoti.
+          </p>
+
+          <p>
+            Agar kabhi result tumhari expectations ke according nahi bhi aata,
+            toh bhi main tumhari mehnat ko utni hi respect karunga.
+          </p>
+
+          <p>
+            Main tum par proud hoon, aur tumhari mehnat mere liye
+            kisi result se kam nahi hai. 💗
+          </p>
+
+        </div>
+
+
+        <div class="quote-card">
+          <span>🌈</span>
+          <h3>Your journey is bigger than one exam.</h3>
+          <p>Keep learning. Keep growing. Keep believing. 🦋</p>
+        </div>
+
+      </section>
+
+
+      <!-- PAGE 4: RELAX -->
+      <section class="website-page" id="page-relax">
+
+        <div class="page-hero">
+
+          <div class="page-emoji">🌿🫧</div>
+
+          <p class="small-heading">TAKE A LITTLE BREAK</p>
+
+          <h2>Relax, Ankuuu!</h2>
+
+          <p class="page-subtitle">
+            Kuch minutes apne liye bhi nikaalo. You deserve it. 💗
+          </p>
+
+        </div>
+
+
+        <div class="breathing-card">
+
+          <h3>Let's Breathe Together 🌸</h3>
+
+          <div class="breathing-circle" id="breathingCircle">
+            <span id="breathingText">Breathe 💗</span>
+          </div>
+
+          <p id="breathingHint">
+            Aaram se saans lo. No hurry, no pressure.
+          </p>
+
+          <button class="main-button" id="breathingButton">
+            Start Relaxing 🌷
+          </button>
+
+        </div>
+
+
+        <div class="message-card">
+          <h3>Little Study Break Checklist 🎀</h3>
+
+          <label class="check-item">
+            <input type="checkbox">
+            Drink some water 💧
+          </label>
+
+          <label class="check-item">
+            <input type="checkbox">
+            Relax your shoulders 🌸
+          </label>
+
+          <label class="check-item">
+            <input type="checkbox">
+            Take a little break 🦋
+          </label>
+
+          <label class="check-item">
+            <input type="checkbox">
+            Smile a little 💗
+          </label>
+
+        </div>
+
+      </section>
+
+
+      <!-- PAGE 5: PERSONAL LETTER -->
+      <section class="website-page" id="page-letter">
+
+        <div class="page-hero">
+
+          <div class="page-emoji">💌🌷</div>
+
+          <p class="small-heading">SOMETHING FROM MY HEART</p>
+
+          <h2>A Little Letter For You</h2>
+
+          <p class="page-subtitle">
+            Ye letter jab bhi mann kare, dobara padh lena. 💗
+          </p>
+
+        </div>
+
+
+        <div class="letter-envelope" id="letterEnvelope">
+
+          <div class="envelope-icon">💌</div>
+
+          <h3>A Letter For Ankuuu</h3>
+
+          <p>There's something I want you to know...</p>
+
+          <button class="main-button" id="openLetterButton">
+            Open My Letter 💗
+          </button>
+
+        </div>
+
+
+        <div class="letter-content hidden" id="letterContent">
+
+          <div class="letter-top">🌷 With lots of care 🌷</div>
+
+          <h2>Dear Ankuuu, 💗</h2>
+
+          <div class="letter-text">
+            <p>
+              Yaar Ankuuu, ek baat hamesha yaad rakhna...
+              tum jitni mehnat kar rahi ho, woh genuinely bahut special hai.
+            </p>
+
+            <p>
+              Tumhara har effort matter karta hai.
+              Chahe result kuch bhi ho, tumhari mehnat ki value
+              kabhi kam nahi hogi.
+            </p>
+
+            <p>
+              Main tum par proud hoon, aur hamesha tumhari
+              happiness aur well-being ki care karunga.
+            </p>
+
+            <p>
+              Kabhi bhi stress ho ya mann mein kuch ho,
+              toh mujhse share kar lena.
+              I'll always try to listen and understand. 🧸
+            </p>
+
+            <p>
+              Take care of yourself, meri hardworking Ankuuu.
+              You deserve all the happiness in the world. 💗
+            </p>
+          </div>
+
+          <div class="letter-signature">
+            With lots of love & care,<br>
+            Someone who believes in you 🌸
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- Previous / Next Controls -->
+    <div class="page-controls">
+
+      <button id="previousPage" class="soft-button">
+        ← Previous
+      </button>
+
+      <span id="pageCounter">01 / 05</span>
+
+      <button id="nextPage" class="main-button">
+        Next Page →
+      </button>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+      <div class="footer-flowers">🌸 💗 🦋 🌷</div>
+
+      <h2>Always Keep Smiling, Ankuuu!</h2>
+
+      <p>
+        A little corner of the internet,
+        made with care just for you. 🎀
+      </p>
+
+      <div class="footer-love">
+        Made with 💗 and endless good wishes.
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <!-- Tap Animation Container -->
+  <div id="tapEffects" aria-hidden="true"></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
